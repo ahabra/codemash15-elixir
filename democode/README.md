@@ -1,7 +1,7 @@
 Democode
 ========
 
-We have the follwoing files:
+We have the follwoing files in the `lib` directory:
 
 1. p1_hello.exs: a simple hello world script
 2. p2_hello.ex: different ways of saying "hello world"
@@ -10,4 +10,13 @@ We have the follwoing files:
 5. p5_data.ex: show structs and pipes. 
 
 Please look at the test directory to see how to use these modules.
+
+To run tests:
+
+	mix test
+
+To generate docs:
+
+	mix docs
+
 
