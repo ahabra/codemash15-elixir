@@ -20,13 +20,12 @@ defmodule P5_data do
 
 	def findBooksWithinPriceRange(books, min, max) do
 		Enum.filter(books, fn(book) ->
-			price = Map.get(book, :price)
-			price >= min and price <= max
+			book.price >= min and book.price <= max
 		end)
 	end
 
 	def priceOf(books) do
-		Enum.reduce(books, 0, fn(book, acc) -> acc + Map.get(book, :price) end)
+		Enum.reduce(books, 0, fn(book, acc) -> acc + book.price end)
 	end
 
 	def applyTax(price, taxPercent) do

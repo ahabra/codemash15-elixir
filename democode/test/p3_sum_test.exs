@@ -7,6 +7,7 @@ defmodule P3_sumTest do
     assert sum2(1,4) == 10
     assert sum3(1,4) == 10
     assert sum4(1,4) == 10
+    assert sum5(1,4) == 10
 
     assert sumOfMillion == 500_000_500_000
   end

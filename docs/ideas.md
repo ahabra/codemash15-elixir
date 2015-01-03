@@ -15,6 +15,8 @@ Stream: Lazy
 anonymous function
 IO.inspect
 
+hi number of processes
+
 Different ways for Hello World
 ------------------------------
 	look at IO, Strings

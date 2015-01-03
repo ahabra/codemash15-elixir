@@ -21,7 +21,7 @@ defmodule P2_hello do
 	end
 
 	def hello4 do
-		hello4_private
+		hello4_private   # perenthisis are optional
 	end
 
 	defp hello4_private do
