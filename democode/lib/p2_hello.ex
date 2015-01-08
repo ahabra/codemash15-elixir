@@ -15,7 +15,7 @@ defmodule P2_hello do
 
 	Use "mix docs" to genrate docs
 	"""
-	def hello3(what) do
+	def hello3(what \\ "world") do
 		# note string concatenation
 		"hello3 " <> what
 	end
@@ -54,7 +54,9 @@ defmodule P2_hello do
 	end
 
 	def hello10(language) do
+		# atoms are constants where their name is their own value.
 		map = %{:english => "hello10 world", :klingon => "qo vIvan" }
+		IO.puts map.english
 		map[language]
 	end
 

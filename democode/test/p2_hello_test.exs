@@ -5,7 +5,7 @@ defmodule P2_helloTest do
   test "hello" do
   	hello1
   	assert hello2 == "hello2 world"
-  	assert hello3("world") == "hello3 world"
+  	assert hello3() == "hello3 world"
   	assert hello4 == "Nǐ hǎo shìjiè"
   	assert hello5 == "hola mundo"
     assert hello6 == "hello6\nworld\n"
