@@ -3,7 +3,7 @@ defmodule P5_processTest do
 	import P6_process
 
 	test "createThenKill" do
-		n = 25  #0_000
+		n = 250_000
 		IO.puts inspect :timer.tc(P6_process, :createThenKill, [n])
 	end
 
